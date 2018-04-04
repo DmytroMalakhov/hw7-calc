@@ -1,0 +1,39 @@
+body {
+    background-color: #757575;
+    margin: 0;
+}
+
+body .wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+body input[type="text"] {
+    height: 120px;
+    width: 398px;
+    font-size: 40px;
+    color: #CDDC39;
+    text-align: right;
+}
+
+body input[type="button"] {
+    height: 100px;
+    width: 100px;
+    margin-right: -4px;
+    font-size: 40px;
+    background-color: #CDDC39;
+    color: #F0F4C3;
+    text-shadow: 0 0 35px #212121;
+}
+
+body input[name="btn_eq"] {
+    height: 100px;
+    width: 402px;
+    margin-right: -4px;
+    background-color: #FF9800;
+}
+
+body input[name="btn_c"] {
+    text-transform: uppercase;
+}
